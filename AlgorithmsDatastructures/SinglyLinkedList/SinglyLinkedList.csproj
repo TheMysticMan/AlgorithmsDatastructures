@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27585F30-FE21-4F49-81FE-669DBFF6B73E}</ProjectGuid>
+    <ProjectGuid>{1C866DCE-F964-4DBC-84FF-58A55CD6234D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ShellSort</RootNamespace>
-    <AssemblyName>ShellSort</AssemblyName>
+    <RootNamespace>SinglyLinkedList</RootNamespace>
+    <AssemblyName>SinglyLinkedList</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShellSortExtension.cs" />
+    <Compile Include="SinglyLinkedList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

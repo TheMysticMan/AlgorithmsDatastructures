@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27585F30-FE21-4F49-81FE-669DBFF6B73E}</ProjectGuid>
+    <ProjectGuid>{C2DDB960-E65C-4B24-A989-2E2E5C5FC553}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ShellSort</RootNamespace>
-    <AssemblyName>ShellSort</AssemblyName>
+    <RootNamespace>BinaryTree</RootNamespace>
+    <AssemblyName>BinaryTree</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShellSortExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

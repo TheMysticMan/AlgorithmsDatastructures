@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27585F30-FE21-4F49-81FE-669DBFF6B73E}</ProjectGuid>
+    <ProjectGuid>{A564BB20-67AA-445C-B0B4-851BCB20F8E1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ShellSort</RootNamespace>
-    <AssemblyName>ShellSort</AssemblyName>
+    <RootNamespace>MergeSort</RootNamespace>
+    <AssemblyName>MergeSort</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShellSortExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

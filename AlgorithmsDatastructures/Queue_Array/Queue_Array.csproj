@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27585F30-FE21-4F49-81FE-669DBFF6B73E}</ProjectGuid>
+    <ProjectGuid>{462566D1-D5B0-4609-B9BC-EB26E1D7F7FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ShellSort</RootNamespace>
-    <AssemblyName>ShellSort</AssemblyName>
+    <RootNamespace>Queue_Array</RootNamespace>
+    <AssemblyName>Queue_Array</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,10 +44,15 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShellSortExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArrayList\ArrayList.csproj">
+      <Project>{17d9889d-cba9-427b-86ef-c39337a02935}</Project>
+      <Name>ArrayList</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

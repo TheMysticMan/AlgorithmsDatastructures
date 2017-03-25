@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27585F30-FE21-4F49-81FE-669DBFF6B73E}</ProjectGuid>
+    <ProjectGuid>{17D9889D-CBA9-427B-86EF-C39337A02935}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ShellSort</RootNamespace>
-    <AssemblyName>ShellSort</AssemblyName>
+    <RootNamespace>ArrayList</RootNamespace>
+    <AssemblyName>ArrayList</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShellSortExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
